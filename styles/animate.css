@@ -1,0 +1,35 @@
+.animate-wrap {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  will-change: opacity;
+}
+.animate-wrap--fired {
+  opacity: 1;
+}
+.builder-editing .animate-wrap {
+  opacity: 1 !important;
+}
+.animate {
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.builder-editing .animate {
+  opacity: 1 !important;
+  transform: none !important;
+}
+.animate.animated {
+  opacity: 1;
+  transition: opacity 0.675s cubic-bezier(0.16, 0, 0.28, 1), transform 0.675s cubic-bezier(0.16, 0, 0.28, 1);
+}
+.animate--fade-up {
+  transform: translateY(60px);
+}
+.animate--fade-up.animated {
+  transform: translateY(0);
+}
+.animate--fade-right {
+  transform: translateX(-60px);
+}
+.animate--fade-right.animated {
+  transform: translateY(0);
+}

@@ -5,6 +5,9 @@ import 'swiper/components/pagination/pagination.scss'
 import Layout from '../components/Layout'
 import ShopProvider from '../context/shopContext'
 import { useRouter } from 'next/router'
+import '../styles/global.css'
+import '../styles/animate.css'
+import Animate from '../components/Animate'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
