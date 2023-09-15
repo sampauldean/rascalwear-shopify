@@ -7,7 +7,7 @@ import Head from 'next/head'
 export default function Home({ products }) {
 
   return (
-    <div className="">
+    <div className="bg-black">
       <Head>
         <title>Rascal Wear</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react'
 
-const Animate = (props) => {
+export default function Animate(props) {
   const animateRef = useRef()
 
   const [animated, setAnimated] = useState(false)
@@ -44,5 +44,3 @@ const Animate = (props) => {
     </div>
   )
 }
-
-export default Animate
