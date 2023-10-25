@@ -7,7 +7,7 @@ import Head from 'next/head'
 export default function Home({ products }) {
 
   return (
-    <div className="bg-black">
+    <div>
       <Head>
         <title>Rascal Wear</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,7 +24,7 @@ export default function Home({ products }) {
         <link rel="stylesheet" href="https://use.typekit.net/zvm8uiy.css"/>
       </Head>
       <Hero />
-      {/* <ProductList products={products} /> */}
+      <ProductList products={products} />
     </div>
   )
 }

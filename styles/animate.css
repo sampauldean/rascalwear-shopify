@@ -33,3 +33,9 @@
 .animate--fade-right.animated {
   transform: translateY(0);
 }
+.animate--fade-down {
+  transform: translateY(-60px);
+}
+.animate--fade-down.animated {
+  transform: translateY(0);
+}
