@@ -345,6 +345,11 @@
   resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-11.1.4.tgz"
   integrity sha512-jt8dMtIRWnJjRYLid6NWCxXzXdpr9VFT/vhDp8ioh+TtOR0UKPHMxei6R4GA3RqoyPEfFcSNmkG7OtyqCSxNIw==
 
+"@next/swc-darwin-x64@11.1.4":
+  version "11.1.4"
+  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-11.1.4.tgz"
+  integrity sha512-5i9tOQNO8kawwggHvQUVR3a5KzIGaE2dw1g1kL//z/N840djvGseHrJSFEGdP1c35gM+dSGPpAKHmeBKrwHM8g==
+
 "@node-rs/helper@1.2.1":
   version "1.2.1"
   resolved "https://registry.npmjs.org/@node-rs/helper/-/helper-1.2.1.tgz"
@@ -1255,6 +1260,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.11"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
+gsap@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+  integrity sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ==
 
 has-flag@^3.0.0:
   version "3.0.0"

@@ -48,11 +48,11 @@ export default function MiniCart({ cart }) {
               leaveFrom="translate-x-0"
               leaveTo="translate-x-full"
             >
-              <div className="w-screen max-w-md">
-                <div className="flex flex-col h-full overflow-y-scroll bg-white shadow-xl">
+              <div className="w-screen max-w-md my-4">
+                <div className="flex flex-col h-full overflow-y-scroll bg-white shadow-xl p-md rounded-[1.25em]">
                   <div className="flex-1 px-4 py-6 overflow-y-auto sm:px-6">
                     <div className="flex items-start justify-between">
-                      <Dialog.Title className="text-lg font-medium text-gray-900">Shopping cart</Dialog.Title>
+                      <Dialog.Title className="text-lg font-medium text-gray-900 font-mudstone text-h2">Shopping cart</Dialog.Title>
                       <div className="flex items-center ml-3 h-7">
                         <button
                           ref={cancelButtonRef}
@@ -131,7 +131,7 @@ export default function MiniCart({ cart }) {
                               ))}
                             </ul> :
                             <div>
-                              <p>Nothing in your cart!</p>
+                              <p className={`font-salted`}>Nothing in your cart!</p>
                             </div>
                         }
 

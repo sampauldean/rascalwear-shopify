@@ -2,7 +2,7 @@ import { getProductsInCollection } from "../lib/shopify"
 import ProductList from "../components/ProductList"
 import Hero from "../components/Hero"
 import Head from 'next/head'
-
+import Marquee from "../components/molecules/Marquee"
 
 export default function Home({ products }) {
 
@@ -24,7 +24,7 @@ export default function Home({ products }) {
         <link rel="stylesheet" href="https://use.typekit.net/zvm8uiy.css"/>
       </Head>
       <Hero />
-      <ProductList products={products} />
+      {/* <ProductList products={products} /> */}
     </div>
   )
 }
